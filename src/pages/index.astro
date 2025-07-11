@@ -1,5 +1,6 @@
 ---
-import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+//import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import CookieConsent from '../components/CookieConsent.astro';
 ---
 
 <html lang="en">
@@ -9,9 +10,10 @@ import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
-		<GoogleAnalytics />
+
 	</head>
 	<body>
 		<h1>Astro 11:09</h1>
+		<CookieConsent />
 	</body>
 </html>
